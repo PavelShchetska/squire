@@ -1,0 +1,159 @@
+﻿/*
+version: 1.0.0
+*/
+@import url("/CSS/SquireReset.css");
+
+
+/*main styles*/
+html{
+	height: 100%;
+}
+
+body{
+	font-family: Tahoma, Arial, sans-serif;
+	min-height: 100%;
+	/*padding-top: 25px;*/
+	color: #000;
+}
+
+p{
+	font-size: 12px;
+	color: #000;	
+}
+
+a{
+	text-decoration: none;
+	outline: none;
+	color: #000;
+	font-size: 14px;
+}
+
+a:hover{
+	text-decoration: underline;
+	outline: none;
+	color: #000000;
+	font-size: 14px;
+}
+
+#all{
+	width: 1004px;
+	background: #fff;
+	margin: 0 auto;
+}
+
+
+/*header*/
+#header{
+	height: 128px;
+	background: url(../Contents/header.png) no-repeat bottom;
+}
+
+#logo{
+	float: left;
+	margin: 20px 0 0 28px;	
+}
+
+#slogan{
+	float: left;
+	margin: 35px 0 0 166px;
+}
+
+#slogan p{
+	font-family: Calibri;
+	font-size: 36px;
+	font-weight:bold;
+}
+
+#lang{
+	float: right;
+	margin: 16px 26px 0 0;	
+}
+
+#search{
+	float: right;
+	margin: 60px 28px 0 62px;
+	width:	
+}
+
+
+/*menu*/
+#menu{
+	height: 30px;	
+}
+
+#line_top{
+	float: left;
+	margin: 0 0 0 28px;		
+}
+
+#button{
+	float: left;
+	margin: -4px 0 0 28px;
+}
+
+/*content*/
+#content{
+	height: 540px;
+}
+
+#full{
+	float: left;
+	margin: 8px 0 0 28px;
+}
+
+#small_left{
+	float: left;
+	margin: 12px auto 0 28px;
+}
+
+#small_center{
+	float: left;
+	margin: 12px auto 0 14px;
+}
+
+#small_right{
+	float: right;
+	margin: 12px 24px 0 auto;
+}
+
+
+/*footer*/
+#footer{
+	height: 200px;	
+}
+
+#line_down{
+	float: left;
+	margin: 0 0 0 28px;
+}
+ 
+#service{
+	float: left;
+	margin: 10px auto 0 28px;
+}
+
+#consulting{
+	float: left;
+	margin: 10px auto 0 70px;
+}
+
+#training{
+	float: right;
+	margin: 12px 24px 0 auto;
+}
+
+
+/*footer_c*/
+#footer_c{
+	height: 48px;	
+}
+
+#mini_logo{
+	float: left;
+	margin: 0 0 0 28px;
+}
+
+#copy{
+	float: left;
+	margin: 35px 0 0 10px;
+}
