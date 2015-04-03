@@ -87,6 +87,7 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Training.cs" />
     <Compile Include="Pages\training.aspx.cs">
       <DependentUpon>training.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
