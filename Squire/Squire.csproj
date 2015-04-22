@@ -83,8 +83,10 @@
     <Content Include="CSS\SquireReset.css" />
     <Content Include="CSS\SquireStyle.css" />
     <Content Include="Default.aspx" />
-    <Content Include="Pages\training.aspx" />
-    <Content Include="Web.config" />
+    <Content Include="Pages\TrainingList.aspx" />
+    <Content Include="Web.config">
+      <SubType>Designer</SubType>
+    </Content>
   </ItemGroup>
   <ItemGroup>
     <Compile Include="Default.aspx.cs">
@@ -94,14 +96,15 @@
     <Compile Include="Default.aspx.designer.cs">
       <DependentUpon>Default.aspx</DependentUpon>
     </Compile>
+    <Compile Include="Models\Repository\Repository.cs" />
     <Compile Include="Models\Repository\EFDbContext.cs" />
     <Compile Include="Models\Training.cs" />
-    <Compile Include="Pages\training.aspx.cs">
-      <DependentUpon>training.aspx</DependentUpon>
+    <Compile Include="Pages\TrainingList.aspx.cs">
+      <DependentUpon>TrainingList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
-    <Compile Include="Pages\training.aspx.designer.cs">
-      <DependentUpon>training.aspx</DependentUpon>
+    <Compile Include="Pages\TrainingList.aspx.designer.cs">
+      <DependentUpon>TrainingList.aspx</DependentUpon>
     </Compile>
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
