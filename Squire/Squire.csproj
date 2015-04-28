@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Pages\Squire.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
@@ -72,14 +73,14 @@
     </None>
   </ItemGroup>
   <ItemGroup>
-    <Content Include="Contents\full_screen_1.png" />
-    <Content Include="Contents\header.png" />
-    <Content Include="Contents\line.png" />
-    <Content Include="Contents\logo.png" />
-    <Content Include="Contents\search.png" />
-    <Content Include="Contents\small_screen_1.png" />
-    <Content Include="Contents\small_screen_2.png" />
-    <Content Include="Contents\small_screen_3.png" />
+    <Content Include="Contents\images\full_screen_1.png" />
+    <Content Include="Contents\images\header.png" />
+    <Content Include="Contents\images\line.png" />
+    <Content Include="Contents\images\logo.png" />
+    <Content Include="Contents\images\search.png" />
+    <Content Include="Contents\images\small_screen_1.png" />
+    <Content Include="Contents\images\small_screen_2.png" />
+    <Content Include="Contents\images\small_screen_3.png" />
     <Content Include="CSS\SquireReset.css" />
     <Content Include="CSS\SquireStyle.css" />
     <Content Include="Default.aspx" />
@@ -99,6 +100,13 @@
     <Compile Include="Models\Repository\Repository.cs" />
     <Compile Include="Models\Repository\EFDbContext.cs" />
     <Compile Include="Models\Training.cs" />
+    <Compile Include="Pages\Squire.Master.cs">
+      <DependentUpon>Squire.Master</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\Squire.Master.designer.cs">
+      <DependentUpon>Squire.Master</DependentUpon>
+    </Compile>
     <Compile Include="Pages\TrainingList.aspx.cs">
       <DependentUpon>TrainingList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>

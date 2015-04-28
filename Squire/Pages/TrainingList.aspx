@@ -1,14 +1,7 @@
-﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TrainingList.aspx.cs" Inherits="Squire.Pages.TrainingList" %>
+﻿<%@ Page Language="C#" AutoEventWireup="true" CodeBehind="TrainingList.aspx.cs" Inherits="Squire.Pages.TrainingList" MasterPageFile="~/Pages/Squire.Master" %>
 
-<!DOCTYPE html>
-
-<html xmlns="http://www.w3.org/1999/xhtml">
-<head runat="server">
-    <title>Squire</title>
-</head>
-<body>
-    <form id="form2" runat="server">
-        <div>
+<asp:Content ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
+    <div id="content">
             <%
                 foreach (Squire.Models.Training trainings in GetTraining())
                 {
@@ -22,7 +15,5 @@
                 }
             %>
         </div>
-    </form>
-</body>
-</html>
+</asp:Content>
 
