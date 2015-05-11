@@ -7,9 +7,9 @@
 // </auto-generated>
 //------------------------------------------------------------------------------
 
-namespace Squire {
+namespace Squire.Pages {
     
     
-    public partial class Default {
+    public partial class SquireService {
     }
 }

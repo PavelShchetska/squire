@@ -29,7 +29,7 @@
 				<form id="search">
 					<input type="text" name="s" id="s"></input>
 				</form>
-					<!--img src="Contents/search.png" alt="search" /-->
+					<img src="../Contents/images/search.png" alt="search" />
 			</div><!-- end header -->
 			
 			<div id="menu">
@@ -38,12 +38,12 @@
 				</div><!-- end up_line -->
 			
 				<div id="button">
-						<a href="#">main</a>
-						<a href="#">service</a>
-						<a href="#">consulting</a>
-						<a href="~/Pages/TrainingList.aspx">training</a>
-                        <a href="#">careers</a>
-						<a href="#">contact</a>      
+						<a href="../Default.aspx">main</a>
+						<a href="../Pages/SquireService.aspx">service</a>
+						<a href="../Pages/SquireConsulting.aspx">consulting</a>
+						<a href="../Pages/TrainingList.aspx">training</a>
+                        <a href="../Pages/SquireCareers.aspx">careers</a>
+						<a href="../Pages/ContactList.aspx">contact</a>      
 				</div><!-- end button -->
 			</div><!-- end menu -->
     

@@ -64,6 +64,7 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />
+    <Content Include="Pages\ContactList.aspx" />
     <Content Include="Pages\Squire.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -84,6 +85,9 @@
     <Content Include="CSS\SquireReset.css" />
     <Content Include="CSS\SquireStyle.css" />
     <Content Include="Default.aspx" />
+    <Content Include="Pages\SquireCareers.aspx" />
+    <Content Include="Pages\SquireConsulting.aspx" />
+    <Content Include="Pages\SquireService.aspx" />
     <Content Include="Pages\TrainingList.aspx" />
     <Content Include="Web.config">
       <SubType>Designer</SubType>
@@ -100,12 +104,40 @@
     <Compile Include="Models\Repository\Repository.cs" />
     <Compile Include="Models\Repository\EFDbContext.cs" />
     <Compile Include="Models\Training.cs" />
+    <Compile Include="Pages\ContactList.aspx.cs">
+      <DependentUpon>ContactList.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\ContactList.aspx.designer.cs">
+      <DependentUpon>ContactList.aspx</DependentUpon>
+    </Compile>
     <Compile Include="Pages\Squire.Master.cs">
       <DependentUpon>Squire.Master</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\Squire.Master.designer.cs">
       <DependentUpon>Squire.Master</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SquireCareers.aspx.cs">
+      <DependentUpon>SquireCareers.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SquireCareers.aspx.designer.cs">
+      <DependentUpon>SquireCareers.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SquireConsulting.aspx.cs">
+      <DependentUpon>SquireConsulting.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SquireConsulting.aspx.designer.cs">
+      <DependentUpon>SquireConsulting.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\SquireService.aspx.cs">
+      <DependentUpon>SquireService.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\SquireService.aspx.designer.cs">
+      <DependentUpon>SquireService.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\TrainingList.aspx.cs">
       <DependentUpon>TrainingList.aspx</DependentUpon>
