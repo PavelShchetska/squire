@@ -45,7 +45,7 @@ a:hover{
 /*header*/
 #header{
 	height: 128px;
-	background: url(../Contents/header.png) no-repeat bottom;
+	background: url(../Contents/images/header.png) no-repeat bottom;
 }
 
 #logo{
@@ -89,6 +89,12 @@ a:hover{
 #button{
 	float: left;
 	margin: -4px 0 0 28px;
+}
+
+#db{
+    float: left;
+	margin: 0 0 0 28px;	
+    height:100%;
 }
 
 /*content*/

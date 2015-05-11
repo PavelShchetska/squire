@@ -2,6 +2,7 @@
 
 <asp:Content ContentPlaceHolderID="ContentPlaceHolder1" runat="server">
     <div id="content">
+        <h3>Contact</h3>
             <%
                 /*foreach (Squire.Models.Training trainings in GetTraining())
                 {
