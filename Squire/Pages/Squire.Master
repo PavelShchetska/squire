@@ -27,9 +27,10 @@
 				</div><!-- end lang -->
 								
 				<form id="search">
-					<input type="text" name="s" id="s"></input>
+					<!--input type="text" name="s" id="s"></input-->
+                    <img src="../Contents/images/search.png" alt="search" />
 				</form>
-					<img src="../Contents/images/search.png" alt="search" />
+					
 			</div><!-- end header -->
 			
 			<div id="menu">

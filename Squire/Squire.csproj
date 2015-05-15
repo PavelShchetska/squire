@@ -65,6 +65,7 @@
   <ItemGroup>
     <Content Include="packages.config" />
     <Content Include="Pages\ContactList.aspx" />
+    <Content Include="Pages\JoinPage.aspx" />
     <Content Include="Pages\Squire.Master" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
@@ -103,13 +104,22 @@
     </Compile>
     <Compile Include="Models\Repository\Repository.cs" />
     <Compile Include="Models\Repository\EFDbContext.cs" />
+    <Compile Include="Models\SquireService.cs" />
     <Compile Include="Models\Training.cs" />
+    <Compile Include="Models\TrainingStudents.cs" />
     <Compile Include="Pages\ContactList.aspx.cs">
       <DependentUpon>ContactList.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
     </Compile>
     <Compile Include="Pages\ContactList.aspx.designer.cs">
       <DependentUpon>ContactList.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="Pages\JoinPage.aspx.cs">
+      <DependentUpon>JoinPage.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="Pages\JoinPage.aspx.designer.cs">
+      <DependentUpon>JoinPage.aspx</DependentUpon>
     </Compile>
     <Compile Include="Pages\Squire.Master.cs">
       <DependentUpon>Squire.Master</DependentUpon>
